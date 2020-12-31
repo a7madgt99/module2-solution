@@ -3,6 +3,7 @@
 * {
   box-sizing: border-box;
   text-align: center;
+
 }
 
 h1
@@ -13,20 +14,54 @@ h1
 
 p{
 	color: darkblue;
+	clear: right;
+	margin: 4px;
 }
 
 section {
 
 margin: 0.5%;
 border-style: dotted;
-padding: 4px;
+
 text-align: justify;
-border-radius: 5%;
-border-color: #1E90FF;
+
+border-color: #0281F0;
 float: left;
+border-width: 1px;
+}
+
+.se{
+
+	background: #eeeeee;
+}
+#ps3{
+	background: #ffffff;
+}
+
+.title{
+	color: white;
+	margin: 0px;
+	margin-bottom: 4px;
+	border-color: cyan;
+	border-style: solid;
+	float: right;
+	text-align: center;
+	font-size: 20px;
+	font-style: bold;
+
 
 }
 
+#t1{
+	background: blue;
+}
+
+#t2{
+	background: cornflowerblue;
+}
+#t3{
+	background: darkblue;
+}
 
 /*desktop*/
 @media (min-width: 992px){
@@ -41,10 +76,7 @@ width: 31%;
     
 	
 border:none;
-display: flex;
-align-content: center;
-align-self: center;
-align-items: center;
+
 padding: 0;
 
 }
@@ -53,7 +85,7 @@ padding: 0;
 width: 100%;
 margin: auto;
 
-float: top;
+
 
 
 }
@@ -70,22 +102,24 @@ width: 47%;
 
 #ps3{
     
-	width: 98%;
+	width: 100%;
 	border:none;
-display: flex;
+
+	display: flex;
 align-content: center;
 align-self: center;
 align-items: center;
 
+
 }
 #s3{
 
-
 margin: auto;
 
-float: top;
+}
+.title{
 
-
+	width: 31%;
 }
 
 }
@@ -94,10 +128,14 @@ float: top;
 /*phone*/
 @media  (max-width: 767px){
 
-section{
+.se{
 width: 98%;
 }
 
+.title{
+
+	width: 31%;
+}
 
 #ps3{
     
